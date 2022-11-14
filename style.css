@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(44, 255, 255);
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    background-color: cornsilk;
+    padding-top: 5px; 
+    padding-bottom: 10px ;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    padding-top: 10px;
+   
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+#show_sketch{
+   float: right;
+   margin-right: 20px;
+   margin-top: -55px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: canvas_animation;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes canvas_animation {
+
+    from {box-shadow: 1px 1px 38px rgb(73, 73, 73);}
+    to {box-shadow: 1px 1px 38px rgb(177, 175, 175);}
+}
